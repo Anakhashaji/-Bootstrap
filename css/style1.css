@@ -1,0 +1,105 @@
+
+*{
+	box-sizing: border-box;
+}
+
+
+
+.banner-bg{
+	background-image: url('../img/academy-banner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+.banner-bg h2{
+	font-size: 60px;
+}
+.section2 p{
+	font-size: 25px;
+	font-weight: bolder;
+}
+.section2 p::before{
+	content: '{';
+	color: red;
+}
+.section2 p::after{
+	content: '}';
+	color: red;
+}
+.margin-left{
+	margin-left: -140px;
+}
+.section3 p{
+	font-size:22px ;
+}
+.section4{
+	background-image: url("../img/modulebg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.vh-60{
+	height: 60vh;
+}
+.interview{
+	background-image: url('../img/testsbg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.interview1{
+	background-image: url('../img/intrvwbg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.interview div{
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	padding: 80px;
+	font-size: 22px;
+	height: 100%;
+}
+
+.interview1 div{
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	padding: 80px;
+	font-size: 22px;
+	height: 100%;
+}
+
+
+/*medid query*/
+
+
+@media screen and (max-width:576px)
+{
+.banner-bg{
+	background-image: url('');
+	text-align: center;
+}
+.margin-left{
+	margin-left:0;
+}
+.section2 p{
+	font-size: 18px;
+	font-weight: bolder;
+	text-align:center;
+}
+.vh-60{
+	height: auto;
+}
+.interview div{
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	padding: 40px;
+	font-size: 16px;
+	
+}
+.interview1 div{
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	padding: 40px;
+	font-size: 16px;
+
+}
+	
+}
